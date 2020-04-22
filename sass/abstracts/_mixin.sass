@@ -1,0 +1,51 @@
+@mixin btn-primary
+  background: transparent
+  border: none
+  background: $primary
+  padding: 15px 40px
+  color: white
+  text-transform: uppercase
+  font-weight: $font-thin
+  border-radius: 10px
+  cursor: pointer
+  transition: 0.3s ease-in-out
+  &:hover
+    background-color: $white
+    color: $primary
+
+@mixin btn-secondary
+  background: transparent
+  border: 1px solid $primary
+  color: $primary
+  padding: 12px 24px
+  cursor: pointer
+  border-radius: 5px
+  text-transform: uppercase
+  font-size: 0.9em
+  font-weight: $font-thin
+  transition: 0.3s ease-in-out
+  &:hover
+    background-color: $primary
+    color: $white
+
+@mixin partners-img
+a
+  &:nth-child(1)
+    width: 20%
+    @media(max-width: $large-devices)
+      width: 25%
+    @media(max-width: $medium-devices)
+      width: 15%
+    @media(max-width: $small-devices)
+      width: 25%
+  &:nth-child(2)
+    width: 40%
+    @media(max-width: $large-devices)
+      width: 45%
+    @media(max-width: $medium-devices)
+      width: 30%
+    @media(max-width: $small-devices)
+      width: 40%
+  img
+    width: 100%
+    height: 100%

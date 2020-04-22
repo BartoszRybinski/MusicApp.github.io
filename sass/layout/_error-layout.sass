@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900&display=swap')
+@import ../abstracts/colors
+@import ../abstracts/type
+@import ../abstracts/breakpoints
+@import ../abstracts/mixin
+@import ../vendor/normalize
+@import ../base/base
+
+
+body
+  overflow: hidden
+  main
+    height: 100vh
+    width: 100%
+    .error-container
+      height: 90%
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      img
+        width: 40%
+        @media(max-width: $medium-devices)
+          width: 50%
+          margin-bottom: 5%
+        @media(max-width: $small-devices)
+          width: 60%
+          margin-bottom: 10%
+      span
+        font-weight: $font-thin
+        font-size: 4em
+        @media(max-width: $medium-devices)
+          font-size: 3em
+        @media(max-width: $small-devices)
+          font-size: 2em
+        &:nth-child(3)
+          font-size: 3em
+          @media(max-width: $medium-devices)
+            font-size: 2em
+          @media(max-width: $small-devices)
+            font-size: 1.5em
