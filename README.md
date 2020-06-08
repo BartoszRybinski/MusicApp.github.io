@@ -3,7 +3,7 @@
 
 # MusicApp
 
-> Website was created for all music lovers. The main goal was to practise a new 
+> Website was created for all music lovers. The main goal was to practise designing and making websites with a lot of modern animations which can enrich every website. This shows how animations can change a simple static website to some interesting product which can be attractive for customer.
 
 
 
